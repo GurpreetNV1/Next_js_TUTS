@@ -1,9 +1,10 @@
+import Link from "next/link";
 
-
-const page = () => {
+export default function About() {
   return (
-    <h1>Holly fucking airball</h1>
-  )
+    <>
+      <h1>About Page</h1>
+      <Link href="/">Home</Link>
+    </>
+  );
 }
-
-export default page

@@ -1,9 +1,15 @@
+import Link from "next/link";
 
-
-const page = () => {
+export default function Services() {
   return (
-    <h1>Holly fucking Service</h1>
-  )
+    <>
+      <h1>All Services</h1>
+      <p>
+        <Link href="/services/web-dev">Web Development</Link>
+      </p>
+      <p>
+        <Link href="/services/seo">SEO</Link>
+      </p>
+    </>
+  );
 }
-
-export default page
