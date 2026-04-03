@@ -1,5 +1,5 @@
 export default async function Blogs({params}) {
-  console.log(params)
+  console.log(await params)
   return (
     <>
       <h1>All Blogs</h1>
