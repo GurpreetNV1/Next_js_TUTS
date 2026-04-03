@@ -1,4 +1,8 @@
-
+export const metadata = {
+  title:{
+    absolute: "My Server Files"
+  }
+}
 export default async function({params}) {
     const {FilePath} = await params
     console.log(FilePath)

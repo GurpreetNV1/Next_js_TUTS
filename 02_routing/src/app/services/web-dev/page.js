@@ -1,3 +1,6 @@
+export const metadata = {
+  title:"Web-dev"
+}
 export default function WebDev() {
   return (
     <>

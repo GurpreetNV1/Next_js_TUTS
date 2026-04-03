@@ -1,3 +1,7 @@
+export const metadata = {
+  title:"SEO"
+}
+
 export default function WebDev() {
   return (
     <>

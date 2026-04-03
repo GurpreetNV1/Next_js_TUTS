@@ -1,3 +1,4 @@
+
 export default async function Blogs({params}) {
   console.log(await params)
   return (
