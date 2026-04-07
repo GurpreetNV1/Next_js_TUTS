@@ -1,0 +1,9 @@
+1. Where the HTML of our APP can be generated? => Rendering Paradigm
+ANS=> a. Server
+b. Client
+(Above 2 are the main ones)
+
+SSR => SSG and ISR => Server site Generation and Incremental Site Regeneration
+
+SERVER SIDE RENDERING
+2. Static Rendering and Dynamic Rendering
