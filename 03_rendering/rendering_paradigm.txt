@@ -7,3 +7,10 @@ SSR => SSG and ISR => Server site Generation and Incremental Site Regeneration
 
 SERVER SIDE RENDERING
 2. Static Rendering and Dynamic Rendering
+
+
+# Static Site Generation
+ export a function with name generateStaticParams () -> this will return an array of objects which will have blog ID (Blogs example)
+ Put those ids in string => during build time nextjs will create html pages
+  
+
